@@ -1,8 +1,9 @@
 import {useEffect, useState} from "react";
 import {fetchCards} from "../api/cardsApi.ts";
+import {IData_SnippetNews} from "../types/news.types.ts";
 
 export const useCards = () => {
-  const [cards, setCards] = useState([]);
+  const [cards, setCards] = useState<IData_SnippetNews[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
