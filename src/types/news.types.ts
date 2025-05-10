@@ -25,7 +25,7 @@ export interface IData_TagItem {
 }
 
 // траффик для сниппета
-export interface IData_TrafficItem {
+export interface  IData_TrafficItem {
   value: string;
   count: number;
 }
