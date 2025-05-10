@@ -1,0 +1,15 @@
+.snippetTag {
+  border: none;
+  color: black;
+
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.positiveTag {
+  background: green;
+}
+.negativeTag {
+  background: red;
+}
