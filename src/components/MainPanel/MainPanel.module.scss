@@ -1,0 +1,19 @@
+
+.tagItem {
+  display: inline-flex;
+  border: 1px solid var(--grey-color);
+  color: var(--grey-color);
+  border-radius: 16px;
+  background-color: transparent;
+  font-size: 14px;
+  padding: 3px 12px;
+}
+
+.highlightsCounter {
+  border-radius: 8px;
+  padding: 3px 6px;
+  font-size: 12px;
+  margin-left: 6px;
+  line-height: 1.4;
+  color: var(--white-color);
+}
