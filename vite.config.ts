@@ -2,6 +2,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/ksp-test-case/", // имя репозитория на GitHub
+  base: "ksp-test-case",
   plugins: [react()],
 });
