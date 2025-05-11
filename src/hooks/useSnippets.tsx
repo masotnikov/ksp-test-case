@@ -6,7 +6,6 @@ export const useSnippets = () => {
   const [snippets, setSnippets] = useState<IData_SnippetNews[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  console.log(snippets)
 
   useEffect(() => {
     fetchCards()

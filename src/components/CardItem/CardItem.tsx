@@ -13,7 +13,6 @@ interface CardItemProp {
 export const CardItem = ({snippetNews}: CardItemProp) => {
   const {Title, Link} = Typography;
   const {TI} = snippetNews;
-  console.log(snippetNews);
 
   return (
     <Card className="card-item">
