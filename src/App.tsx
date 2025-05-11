@@ -6,7 +6,7 @@ import {customTheme} from "./themes/customTheme.ts";
 
 function App() {
   const {snippets, loading, error} = useSnippets();
-
+  //
   if (loading) {
     return (
       <div className="app__spinner">
